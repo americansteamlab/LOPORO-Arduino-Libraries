@@ -1,0 +1,40 @@
+{
+  "name": "LOPORO",
+  "version": "1.0.0",
+  "description": "Educational robotics library for Arduino/AVR with motors TB6612FNG, 3 ultrasonics, 6-sensor line bar, PID and behaviors in Spanish.",
+  "keywords": [
+    "robotics",
+    "education",
+    "arduino",
+    "tb6612fng",
+    "ultrasonic",
+    "line follower",
+    "sumo",
+    "pid"
+  ],
+  "authors": [
+    {
+      "name": "American Steam Labs",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "atmelavr"
+  ],
+  "headers": [
+    "LoporoAcciones.h",
+    "LoporoIO.h",
+    "LoporoPID.h",
+    "TB6612.h",
+    "Ultrasonic3.h",
+    "LineBar6.h"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AmericanSteamLabs/LOPORO"
+  }
+}
