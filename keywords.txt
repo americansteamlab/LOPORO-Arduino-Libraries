@@ -1,0 +1,21 @@
+LoporoAcciones	KEYWORD1
+LoporoPID	KEYWORD1
+LoporoIO	KEYWORD1
+TB6612	KEYWORD1
+Ultrasonic3	KEYWORD1
+LineBar6	KEYWORD1
+
+PARED_IZQUIERDA	LITERAL1
+PARED_DERECHA	LITERAL1
+
+begin	KEYWORD2
+esperar_boton	KEYWORD2
+calibrar_linea_con_boton	KEYWORD2
+seguir_pared	KEYWORD2
+seguir_linea	KEYWORD2
+buscar_contrincante	KEYWORD2
+atacar	KEYWORD2
+control_serial_paso	KEYWORD2
+imprimir_ultrasonicos	KEYWORD2
+imprimir_barra	KEYWORD2
+prueba_motores_basica	KEYWORD2
