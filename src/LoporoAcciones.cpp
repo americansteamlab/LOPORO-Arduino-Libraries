@@ -26,12 +26,11 @@ static int _toIntClamped(const String& t, int lo, int hi) {
 
 LoporoAcciones::LoporoAcciones()
 : io(LOPORO_BUTTON, LOPORO_LED),
-  motores({
-    LOPORO_TB_AIN1, LOPORO_TB_AIN2, LOPORO_TB_PWMA,
-    LOPORO_TB_BIN1, LOPORO_TB_BIN2, LOPORO_TB_PWMB,
-    LOPORO_TB_STBY,
-    false, false
-  }),
+motores(TB6612Pins(
+  LOPORO_TB_AIN1, LOPORO_TB_AIN2, LOPORO_TB_PWMA,
+  LOPORO_TB_BIN1, LOPORO_TB_BIN2, LOPORO_TB_PWMB,
+  LOPORO_TB_STBY, false, false
+)),
   ultra(
     {LOPORO_U1_TRIG, LOPORO_U1_ECHO},
     {LOPORO_U2_TRIG, LOPORO_U2_ECHO},
