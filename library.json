@@ -1,6 +1,6 @@
 {
   "name": "LOPORO",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Educational robotics library for Arduino/AVR with motors TB6612FNG, 3 ultrasonics, 6-sensor line bar, PID and behaviors in Spanish.",
   "keywords": [
     "robotics",
